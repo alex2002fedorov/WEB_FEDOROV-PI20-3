@@ -1,0 +1,19 @@
+h1 {
+    color: black;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:  center;
+}
+#text1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align:  center;
+}
+.rectangle{
+    width: 50%;
+    height: 910px;
+    border:1px solid;
+    margin:auto;
+    background: cornsilk;}
+.text{
+    color: black;
+}

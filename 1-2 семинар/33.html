@@ -1,0 +1,42 @@
+<!--задание 33-->
+<html>
+    <head>
+        <link rel="stylesheet" href="33.css">
+        <meta charset="utf-8">
+    </head>
+    <body bgcolor="3399FF">
+        <h1>Опрос</h1>
+        <div class="rectangle text">
+        <p id = "text1">Регистрация на получение карты магазина</p>
+        <p id = "text1"> Фамилия: </p><p align=center><input type="name" name="" id=""></p>
+        <p id = "text1">Имя: </p><p align=center><input type="name" name="" id=""></p>
+        <p id = "text1">Отчество:</p><p align=center><input type="name" name="" id=""></p>
+        <p id = "text1">email:</p><p align=center><input type="email" name="" id=""></p>
+        <p id = "text1">Пароль:</p><p align=center><input type="password" name="" id=""></p>
+        <p id = "text1"><label for="phone">Введите свой номер телефона:</label></p>
+        <p id = "text1"><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></p>
+        <p id = "text1"> Ваш уровень? <select name="user_profile">
+            <option value="1">Новичок</option>
+            <option value="2">Профи</option>
+            <option value="3">Легенда</option>
+          </select></p>
+        <!--выбор только одного параметра-->
+        <p id = "text1">Ваш пол?</p>
+        <p id = "text1"><input type="radio" id="male" name="gender" value="male">
+        <label for="male">Мужчина</label><br></p>
+        <p id = "text1"><input type="radio" id="female" name="gender" value="female">
+        <label for="female">Женщина</label><br></p>
+        <!--выбор нескольких параметров-->
+        <p id = "text1">С каких товаров вы ходите получать кэш-бэк?</p>
+        <p id = "text1"><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">Молочная продукция</label><br></p>
+        <p id = "text1"><input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> Овощи</label><br></p>
+        <p id = "text1"><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3">Торты</label></p>
+        <p id = "text1">Ваши пожелания:</p>
+        <p id = "text1"><textarea></textarea></p>
+        <p id = "text1"><input type="submit" value="Отправить""></p>
+        </div>
+    </body>
+</html>
