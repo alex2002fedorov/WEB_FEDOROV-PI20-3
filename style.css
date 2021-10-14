@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+.carus{
+    position: absolute;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 48px;
+    width: 1800px;
+    height: 904px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(177.86deg, #000000 -41.81%, rgba(0, 0, 0, 0.0001) 82.48%);
+}
+.text_car_big{
+    position: absolute;
+    width: 1171.05px;
+    height: 98px;
+    left: 310.48px;
+    top: 383px;
+
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 4.608px;
+
+    color: #FFFFFF;
+}
+.text_car_sm{
+    position: absolute;
+    width: 1171.05px;
+    height: 27px;
+    left: 316.04px;
+    top: 505.5px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1.28px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.carousel-indicators [data-bs-target] {
+    font-weight: 700;
+    height: 0px;
+    color: white;
+    font-family: Oswald;
+    font-size: 15px;
+    text-indent: -85%;
+    margin-bottom: 10px;
+
+}
+.carousel-indicators .active{
+
+    font-size: 30px;
+    
+    text-indent: -105%;
+    margin-top: -15px;
+    text-align: center;
+    border-bottom: 2px solid green;
+    line-height: 0.05em;
+    margin: 5px 5px 20px;
+}
+.navbar{
+    font-family: Oswald;
+    font-size: 14px;
+    padding-left: 52%;
+    padding-top: 90px;
+    background: transparent;
+    position:absolute;
+    z-index:9;
+  }
+.border-bottom.border-custom1{
+    width: 10%;
+    margin-left: 29px;
+    height: 2em;
+    border-color: 4CAF50 !important
+  
+}
+.border-bottom.border-custom2{
+    width: 10%;
+    margin-left: 44px;
+    height: 2em;
+    border-color: 4CAF50 !important
+}
+.border-bottom.border-custom3{
+    width: 10%;
+    margin-left: 22px;
+    height: 2em;
+    border-color: 4CAF50 !important
+}
+.border-bottom.border-custom4{
+    width: 10%;
+    margin-left: 41px;
+    height: 2em;
+    border-color: 4CAF50 !important
+}
