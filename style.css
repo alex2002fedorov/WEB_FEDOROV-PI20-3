@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 .carus{
     position: absolute;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 48px;
     width: 1800px;
     height: 904px;
-    left: 0px;
-    top: 0px;
-    background: linear-gradient(177.86deg, #000000 -41.81%, rgba(0, 0, 0, 0.0001) 82.48%);
+    left: calc(50% - 1800px/2);
+    top: 48px;
 }
 .text_car_big{
     position: absolute;
@@ -28,6 +26,120 @@
     letter-spacing: 4.608px;
 
     color: #FFFFFF;
+}
+.bl3{
+    position: absolute;
+    width: 1800px;
+    height: 690px;
+    left: calc(50% - 1800px/2);
+    top: 1777px;
+    background: #FBFBFB;
+}
+.bl3_text{
+    position: absolute;
+    height: 74px;
+    left: 315px;
+    top: 135px;
+
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    align-items: flex-end;
+    letter-spacing: 3.072px;
+
+    color: #252525;
+}
+.bl3_bor{
+    position: absolute;
+    width: 45px;
+    height: 74px;
+    left: 325px;
+    top: 135px;
+}
+.bl3_bl1{
+    position: absolute;
+    width: 373px;
+    height: 260px;
+    left: 315px;
+    top: 294px;
+    background: #FFFFFF;
+}
+.bl3_bl1_text{
+    position: absolute;
+    width: 85px;
+    height: 30px;
+    left: 44px;
+    top: 53px;
+
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: flex-end;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+
+    color: #252525;
+}
+.bl3_bl1_bor{
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    left: 57px;
+    top: 95px;
+
+    background: #252525;
+}
+.bl3_bl1_bltext{
+    position: absolute;
+    width: 281px;
+    height: 75px;
+    left: 43px;
+    top: 116px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    align-items: center;
+
+    color: #777777;
+}
+.oval{
+    position: absolute;
+    width: 105px;
+    height: 80px;
+    left: 220px;
+    top: 35px;
+
+}
+.oval_bl1_pic1{
+    position: absolute;
+    width: 50px;
+    height: 35px;
+    left: 248px;
+    top: 57px;
+}
+.bl3_bl1_text2{
+    position: absolute;
+    height: 15px;
+    left: 44px;
+    top: 210px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    align-items: flex-end;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+    color: #252525;
+    mix-blend-mode: normal;
+    opacity: 0.5;
 }
 .text_car_sm{
     position: absolute;
