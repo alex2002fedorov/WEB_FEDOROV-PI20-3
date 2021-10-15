@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.carus{
+    position: absolute;
+    width: 1800px;
+    height: 904px;
+    left: calc(50% - 1800px/2);
+    top: 48px;
+}
+.text_car_big{
+    position: absolute;
+    width: 1171.05px;
+    height: 98px;
+    left: 310.48px;
+    top: 383px;
+
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 4.608px;
+
+    color: #FFFFFF;
+}
+.bl3{
+    position: absolute;
+    width: 1800px;
+    height: 690px;
+    left: calc(50% - 1800px/2);
+    top: 1777px;
+    background: #FBFBFB;
+}
+.bl3_text{
+    position: absolute;
+    height: 74px;
+    left: 315px;
+    top: 135px;
+
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    align-items: flex-end;
+    letter-spacing: 3.072px;
+
+    color: #252525;
+}
+.bl3_bor{
+    position: absolute;
+    width: 45px;
+    height: 74px;
+    left: 325px;
+    top: 135px;
+}
+.bl3_bl1{
+    position: absolute;
+    width: 373px;
+    height: 260px;
+    left: 315px;
+    top: 294px;
+    background: #FFFFFF;
+}
+.bl3_bl1_text{
+    position: absolute;
+    width: 85px;
+    height: 30px;
+    left: 44px;
+    top: 53px;
+
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: flex-end;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+
+    color: #252525;
+}
+.bl3_bl1_bor{
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    left: 57px;
+    top: 95px;
+
+    background: #252525;
+}
+.bl3_bl1_bltext{
+    position: absolute;
+    width: 281px;
+    height: 75px;
+    left: 43px;
+    top: 116px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    align-items: center;
+
+    color: #777777;
+}
+.oval{
+    position: absolute;
+    width: 105px;
+    height: 80px;
+    left: 220px;
+    top: 35px;
+
+}
+.oval_bl1_pic1{
+    position: absolute;
+    width: 50px;
+    height: 35px;
+    left: 248px;
+    top: 57px;
+}
+.bl3_bl1_text2{
+    position: absolute;
+    height: 15px;
+    left: 44px;
+    top: 210px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    align-items: flex-end;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+    color: #252525;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.text_car_sm{
+    position: absolute;
+    width: 1171.05px;
+    height: 27px;
+    left: 316.04px;
+    top: 505.5px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1.28px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.carousel-indicators [data-bs-target] {
+    font-weight: 700;
+    height: 0px;
+    color: white;
+    font-family: Oswald;
+    font-size: 15px;
+    text-indent: -85%;
+    margin-bottom: 10px;
+
+}
+.carousel-indicators .active{
+
+    font-size: 30px;
+    
+    text-indent: -105%;
+    margin-top: -15px;
+    text-align: center;
+    border-bottom: 2px solid green;
+    line-height: 0.05em;
+    margin: 5px 5px 20px;
+}
+.navbar{
+    font-family: Oswald;
+    font-size: 14px;
+    padding-left: 52%;
+    padding-top: 90px;
+    background: transparent;
+    position:absolute;
+    z-index:9;
+  }
+.border-bottom.border-custom1{
+    width: 10%;
+    margin-left: 29px;
+    height: 2em;
+    border-color: 4CAF50 !important
+  
+}
+.border-bottom.border-custom2{
+    width: 10%;
+    margin-left: 44px;
+    height: 2em;
+    border-color: 4CAF50 !important
+}
+.border-bottom.border-custom3{
+    width: 10%;
+    margin-left: 22px;
+    height: 2em;
+    border-color: 4CAF50 !important
+}
+.border-bottom.border-custom4{
+    width: 10%;
+    margin-left: 41px;
+    height: 2em;
+    border-color: 4CAF50 !important
+}
