@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+@mixin text_car($position,$width,$height,$top,$left,$font-family,$font-style,$font-weight,$font-size,$line-height,$align-items,$text-align,$letter-spacing,$color) {
+    position: $position;
+    width: $width;
+    height: $height;
+    top: $top;
+    left: $left;
+    font-family: $font-family;
+    font-style: $font-style;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    align-items: $align-items;
+    text-align: $text-align;
+    letter-spacing: $letter-spacing;
+    color: $color;
+}
+@mixin border-bottom($width,$margin-left,$height,$border-color){
+    width: $width;
+    margin-left: $margin-left;
+    height: $height;
+    border-color: $border-color !important;
+}
+@mixin wthl($font-family,$font-style,$font-weight,$font-size,$line-height,$align-items,$letter-spacing,$color){
+    font-family: $font-family;
+    font-style: $font-style;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    align-items: $align-items;
+    letter-spacing: $letter-spacing;
+    color: $color;
+}
+@mixin pic1_1_2($width,$height,$left,$top,$background,$mix-blend-mode){
+    width: $width;
+    height: $height;
+    left: $left;
+    top: $top;
+    background: $background;
+    mix-blend-mode:$mix-blend-mode;
+}
+@mixin oval($width,$height,$left,$top){
+    width: $width;
+    height: $height;
+    left: $left;
+    top: $top;
+}
+.border-bottom.border-custom1{
+    @include border-bottom(10%,29px,2em,4CAF50)
+}
+.border-bottom.border-custom2{
+    @include border-bottom(10%,44px,2em,4CAF50)
+}
+.border-bottom.border-custom3{
+    @include border-bottom(10%,22px,2em,4CAF50)
+}
+.border-bottom.border-custom4{
+    @include border-bottom(10%,41px,2em,4CAF50)
+}
+.weare{
+    @include wthl(Oswald,normal,bold,36px,53px,flex-end,2.304px,#333333)
+}
+.thesqwd{
+    @include wthl(Open Sans,normal,300,42px, 57px,flex-end, 2.688px,#504E4E)
+}
+.loren{
+    @include wthl(Open Sans,normal,300,15px, 25px,center, 1.26px,#5B5858)
+}
+.pic1_1 {
+    @include pic1_1_2(390px,411px ,-212px ,-19px ,url(Image.png) ,normal)
+}
+    
+.pic2 {
+    @include pic1_1_2(relative,309px ,418px ,0px,url(Image.png) ,normal )
+}
+.oval{
+    @include oval(105px,80px ,220px ,35px )
+}
+.oval_bl1_pic1{
+    @include oval(50px,35px ,248px ,57px )
+}
+.bl3_bor{
+    @include oval(45px,2px ,500% ,207px )
+}
+.car-text {
+    @include wthl(Open Sans,normal,300,14px, 31px,center, 0.896px,#373737)
+}
+@mixin mt($font-family,$font-style,$font-weight,$font-size,$line-height,$text-align,$letter-spacing,$color) {
+    font-family: $font-family;
+    font-style: $font-style;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    text-align: $text-align;
+    letter-spacing: $letter-spacing;
+    color: $color;
+}
+.mt {
+    @include mt(Oswald, normal, normal, 18px, 27px, center, 1.152px, #373737)
+}
+
+.mt2 {
+    @include mt(Oswald, normal, 200, 18px, 25px, center, 1.008px, #777777)
+}
+.t1{
+    @include oval(81px,27px ,144px ,13px );
+    @include wthl(Oswald,normal,300,18px,27px,flex-end,1.152px,#252525)
+}
+.view_more {
+    @include mt(Oswald, normal, normal, 13px, 19px, right, 2px, #252525);
+    align-items: flex-end;
+    text-decoration: none;
+} 
+.navb-text-1-1 {
+    @include wthl(Open Sans,normal,600,13px, 18px,flex-end, 0.832px,#252525);
+    text-decoration: none;
+}
+.navb-text-1 {
+    @include wthl(Open Sans,normal,normal,13px, 18px,flex-end, 0.832px,#252525);
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    text-decoration: none;
+}
+@mixin navbar($font-family,$font-size,$padding-top,$background,$z-index){
+    font-family:$font-family;
+    font-size:$font-size;
+    padding-top:$padding-top;
+    background:$background;
+    z-index: $z-index;
+}
+.navbar1{
+    @include navbar(Oswald,14px,90px, transparent, 9)
+}
+.navbar{
+    @include navbar(Oswald,14px,90px, transparent, 9);
+    padding-left: 52%;
+    position:absolute;
+}
+.year-1 {
+    @include wthl(Oswald,normal,300,48px,71px,flex-end,3.072px,#252525);
+    display: flex;
+}
+.r_m {
+    @include wthl(Open Sans,normal,normal,13px, 18px,flex-end, 0.832px,#252525);
+    text-decoration: none;
+    display: flex;
+}
+.Photography {
+    @include wthl(Open Sans,normal,300,18px, 25px,flex-end, 1.152px,#252525);
+    display: flex;
+    text-align: right;
+}
+.third-pic1-text {
+    @include wthl(Open Sans,normal,300,13px, 23px,center, 0.832px,#c2c2c2);
+    display: flex;
+    text-align: right;
+}
+.mail{
+    width: 45px;
+    height: 35px;
+}
+.relative_box img {
+	width:100%;
+    font-family: "Oswald";
+}
+.bort{
+    background-color: white;
+}
+.bort:hover{
+    border-bottom: solid rgb(112, 191, 115) !important;
+}
+.bl3_bl1_bor{
+    width: 35px;
+    height: 2px;
+    background: #252525;
+}
+.relative_box {
+	position:relative;
+	width:400px;
+	float:left;
+    font-family: "Oswald";
+}
+.carus{
+    @include oval(1800px,904px ,calc(50% - 1800px/2),48px );
+    position: absolute;
+}
+.sqr {
+    @include pic1_1_2(390px,418px ,403px ,62px , #4CAF50,normal);
+    opacity: 0.8;
+}
+.Question_block_text_bottom_right {
+    @include mt(Open Sans, normal, 300, 14px, 19px, center, 1.55556px, #FFFFFF);
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    height: 19px;
+    left: 404.5px;
+    top: 181px;
+}
+.bl3_bl1_text{
+    @include wthl(Oswald,normal,300,20px, 30px,flex-end, 1.28px,#252525);
+    width: 85px;
+    height: 30px;
+    text-transform: uppercase;
+}
+.bl3_bl1_bltext{
+    @include wthl(Open Sans,normal,normal,12px, 25px,center, 0px,#777777);
+    width: 281px;
+    height: 75px;
+}
+.bl3_text{
+    @include wthl(Oswald,normal,bold,48px, 71px,flex-end, 3.072px,#252525);
+    height: 74px;
+    margin-left: 315px;
+    margin-top: 135px;
+}
+.bl3_bl1_text2{
+    @include wthl(Oswald,normal,300,10px, 15px,flex-end, 0.64px,#252525);
+    height: 15px;
+    top:5%;
+    text-transform: uppercase;
+    mix-blend-mode: normal;  
+}
+.bottom_block_text {
+    @include wthl(Oswald,normal,300,13px, 19px,center, 0.832px,#FFFFFF);
+    height: 17px;
+    left: 0px;
+    top: 59px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.end_text {
+    @include mt(Oswald, normal, 300, 13px, 19px, center, 0.832px, #FFFFFF);
+    height: 17px;
+    left: 758px;
+    top: 21px;
+    margin-bottom: 20px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.textr {
+    @include wthl(Oswald,normal,bold,27px, 80px,flex-end, 2.304px,#333333);
+    height: 53px; 
+    left: 0px;
+    top: -4px;
+}
+.carousel-indicators {
+	[data-bs-target] {
+		font-weight: 700;
+		height: 0px;
+		color: white;
+		font-family: Oswald;
+		font-size: 15px;
+		text-indent: -85%;
+		margin-bottom: 10px;
+	}
+	.active {
+		font-size: 30px;
+		text-indent: -105%;
+		margin-top: -15px;
+		text-align: center;
+		border-bottom: 2px solid green;
+		line-height: 0.05em;
+		margin: 5px 5px 20px;
+	}
+}
+.relative_box {
+	h3 {
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		background: rgb(224, 224, 224);
+		opacity: 75%;
+		color: #fff;
+		margin: 0;
+		font-family: "Oswald";
+	}
+}
